@@ -70,12 +70,12 @@ VALUES ("Bergès","Léo","1996-12-10","0655443322","watiwok@hotmail.fr"),
 ("Daramy","Didier","1961-06-15","0786009614","didier.daramy@yahoo.fr"),
 ("Julien","Eric","1973-05-06","0755443482","ejulien@hotmail.fr");
 
-INSERT INTO Ticket(idClient, idSeance)
-VALUES (1, 1),
-(2, 1),
-(3, 1),
-(4, 1),
-(5, 2);
+INSERT INTO Ticket(idClient, idSeance, idSiege)
+VALUES (1, 1, 1),
+(2, 1, 5),
+(3, 1, 8),
+(4, 2, 3),
+(5, 2, 1);
 
 INSERT INTO Seance (debut_seance, idFilm, idSalle)
 VALUES
